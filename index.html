@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Calculator">
+        <div class="screenCalculator">
+            <div class="screenN1" style="text-align: right;"></div>
+            <div class="screenOp" style="text-align: right;"></div>
+            <div class="screenN2" style="text-align: right;"></div>
+
+        </div>
+
+        <div class="keyboard">
+            <!--Keyboard number-->
+            <table >
+                <tr>
+                    
+                    <td colspan="3"><input type="button" value="C" onclick="clearBtn()" style="width: 100%;"></td>
+                    <td><input type="button" value="&div;" onclick="inputOperation('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="" id="7" value="7" onclick="inputNumberOnScreen(7)"></td>
+                    <td><input type="button" name="" id="8" value="8" onclick="inputNumberOnScreen(8)"></td>
+                    <td><input type="button" name="" id="9" value="9" onclick="inputNumberOnScreen(9)"></td>
+                    <td><input type="button" value="&times;" onclick="inputOperation('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="" id="4" value="4" onclick="inputNumberOnScreen(4)"></td>
+                    <td><input type="button" name="" id="5" value="5" onclick="inputNumberOnScreen(5)"></td>
+                    <td><input type="button" name="" id="6" value="6" onclick="inputNumberOnScreen(6)"></td>
+                    <td><input type="button" value="&minus;" onclick="inputOperation('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="" id="1" value="1" onclick="inputNumberOnScreen(1)"></td>
+                    <td><input type="button" name="" id="2" value="2" onclick="inputNumberOnScreen(2)"></td>
+                    <td><input type="button" name="" id="3" value="3" onclick="inputNumberOnScreen(3)"></td>
+                    <td><input type="button" value="&plus;" onclick="inputOperation('+')"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="button" name="" id="0" value="0" onclick="inputNumberOnScreen(0)" style="width: 100%;"></td>
+                    <td><input type="button" value="&equals;" onclick="toCalculate()"></td>
+                </tr>
+            </table>
+            
+
+
+                
+               
+                
+                
+
+            <!-- operation keyboard-->
+
+            
+            
+            
+        </div>
+    </div>
+
+<script src="scritps/script.js"></script>
+</body>
+</html>
