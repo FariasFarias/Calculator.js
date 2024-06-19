@@ -32,9 +32,12 @@ input{
     border: none;
     color: #F1F9F9;
     border-radius: 50%;
+    border-style: solid;
+    border-color: #312426;
 }
 input:hover{
     background-color: black;
+    border-color: white;
 }
 
 .screenCalculator{
@@ -46,4 +49,5 @@ input:hover{
     font-size: 36px;
     margin-bottom: 15px;
 }
+
 
